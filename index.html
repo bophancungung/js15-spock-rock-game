@@ -9,7 +9,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="game-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Rock Paper Scissors Lizard Spock</h1>
+        </div>
+        <!-- Player Container -->
+        <div class="player-container" id="player">
+            <h2>You - <span id="player-score">0</span><span class="choice" id="player-choice"> --- Choice</span></h2>
+            <i class="far fa-hand-rock" id="player-rock" title="Rock" ></i>
+            <i class="far fa-hand-paper" id="player-paper" title="Paper" ></i>
+            <i class="far fa-hand-scissors" id="player-scissors" title="Scissors" ></i>
+            <i class="far fa-hand-lizard" id="player-lizard" title="Lizard" ></i>
+            <i class="far fa-hand-spock" id="player-spock" title="Spock" ></i>
+        </div>
+        <!-- Computer Container -->
+        <div class="player-container" id="computer">
+            <h2>Computer - <span id="computer-score">0</span><span class="choice" id="computer-choice"> --- Choice</span></h2>
+            <i class="far fa-hand-rock" id="computer-rock" title="Rock" ></i>
+            <i class="far fa-hand-paper" id="computer-paper" title="Paper" ></i>
+            <i class="far fa-hand-scissors" id="computer-scissors" title="Scissors" ></i>
+            <i class="far fa-hand-lizard" id="computer-lizard" title="Lizard" ></i>
+            <i class="far fa-hand-spock" id="computer-spock" title="Spock" ></i>
+        </div>
+        <!-- Reset icon -->
+        <i class="fas fa-sync-alt reset-icon" title="Reset" ></i>
+        <!-- Results text -->
+        <div class="result-container">
+            <h3 class="result-text" id="result-text">You Won!</h3>
+        </div>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
